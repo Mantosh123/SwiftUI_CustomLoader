@@ -2,4 +2,4 @@
 
 This is Custom Loading Spinner Animation. It can be used in swiftUI. 
 
-![loader](https://github.com/user-attachments/assets/d34c3c76-36f6-48e8-a041-c2341f68b809) 
+<img width="116" alt="loader" src="https://github.com/user-attachments/assets/048c1bbe-19aa-46d1-b4ce-bdc4aa452593" />
