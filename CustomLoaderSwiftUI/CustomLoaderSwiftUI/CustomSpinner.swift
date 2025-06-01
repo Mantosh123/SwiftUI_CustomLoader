@@ -17,7 +17,7 @@ struct CustomSpinner: View {
     var body: some View {
         
         Rectangle()
-            .fill(.gray.opacity(0.2))
+            .fill(.gray.opacity(0.3))
             .ignoresSafeArea()
         
         VStack {
@@ -38,8 +38,8 @@ struct CustomSpinner: View {
             }
             Text("Laoding...")
         }
-        .padding(.horizontal, 80)
-        .padding(.vertical, 50)
+        .padding(.horizontal, 50)
+        .padding(.vertical, 30)
         .background(RoundedRectangle(cornerRadius: 16).fill(Color.white))
         .onAppear {
             withAnimation(.linear(duration: 1.2)

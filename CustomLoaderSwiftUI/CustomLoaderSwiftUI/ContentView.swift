@@ -33,6 +33,9 @@ struct ContentView: View {
                 CustomSpinner()
             }
         }
+        .onAppear {
+            // two onAppear can be possible. 
+        }
     }
 }
 
